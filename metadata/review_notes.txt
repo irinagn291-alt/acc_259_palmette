@@ -12,4 +12,4 @@ Behavior does not change by region. Amounts follow the device number format.
 
 No banking, payments, or investment licence applies, because the app does not move money or link a bank.
 
-The app is a personal log only and gives no recommendations.
+The app is a personal log only and gives no recommendations. The app does not scan barcodes or QR codes.
