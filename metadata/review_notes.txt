@@ -1,0 +1,15 @@
+The app never presents a permission prompt. The only usage description in the build settings is for the camera and reads: This app does not use the camera.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Palmette is a hand-grown savings garden. It is for people who plant a named goal, pour cash by hand, and pinch the leader so wood records the target. It is not a bank.
+
+No credentials or demo account are needed. Cold launch shows Plant a goal on the garden and the line Name a target. The garden is a trellis of glass canes you grow by hand — not a bank. Tap Next to read Pour, then pinch the leader, then Next to read Beads only after a pinch, then Continue. Skip also opens the garden. On Garden, if you see The garden is empty. tap Plant, enter Name and Target on Plant a vine, and tap Plant. With a vine open, enter Amount, then tap Pour or Pour onto the leader. Tap Pinch the leader to move waiting cash into wood and write node beads at 25, 50, 75, and 100 percent. Retract peels waiting cash only. Tap Analytics to read Node beads, Ripe vines, and Planted, then tap Pinch, then a node or a vine name to return to Garden. Tap Settings to read Housekeeping and On this device, then Contact Palmette, Re-run onboarding, or Reset all data. Reset asks Erase every vine, pour, and node bead? Confirm with Reset all data or Keep my garden. If Garden already shows vines, open one with Waiting cash and tap Pinch the leader.
+
+Everything stays on this device. Contact Palmette opens https://palmette-vine.pro/contact-us.
+
+Behavior does not change by region. Amounts follow the device number format.
+
+No banking, payments, or investment licence applies, because the app does not move money or link a bank.
+
+The app is a personal log only and gives no recommendations.

@@ -1,0 +1,14 @@
+Palmette is a savings garden for people who log goals by hand, without a bank link. You plant a vine, pour cash onto its leader, then pinch the leader so wood records the target.
+
+• Plant a vine with a name and a target
+• Pour cash onto the leader to lengthen waiting flush
+• Pinch the leader to lock waiting cash into wood
+• Retract peels waiting cash only. Wood and beads stay
+• Node beads write at 25, 50, 75, and 100 percent of that vine’s target, only after a pinch
+• Garden shows hatched wood, dashed waiting, and beads on the canes
+• Analytics counts node beads, ripe vines, and planted vines
+• Pinch, then a node explains why waiting cash never beads
+• Settings holds Contact Palmette, Re-run onboarding, and Reset all data
+• Everything stays on this device. There is no bank link.
+
+No accounts, purchases, or cloud sync.

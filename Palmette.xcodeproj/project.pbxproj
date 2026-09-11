@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07035AD800F886F475386E2A /* VineFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE20A584283B91CD3F50E6B /* VineFault.swift */; };
+		09B0552FE8D5D1F348FDD670 /* Flush.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4FF36E7B806936D13A561 /* Flush.swift */; };
+		0EC8D3FEBFAAC9D331796966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C5F339AF0262B6AB5F30B5 /* ContentView.swift */; };
+		11896FDC5A31DE3E417010FC /* VineStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7EED771FE085A4FC2DEDB /* VineStore.swift */; };
+		122C24C4AC912C6E2FBEA614 /* EspalierHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8FE4F7C45818369422D30 /* EspalierHouse.swift */; };
+		1638A9AF037BBD489564CD79 /* GardenCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D7043459E35F2FC469E557 /* GardenCodec.swift */; };
+		19FD1C96921EE6795539B55F /* Wood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1404A134C5D89CBBD583086D /* Wood.swift */; };
+		2329CB1E5A0A0C5568B6F839 /* PlantFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57583367586D82A385F78BBB /* PlantFold.swift */; };
+		250CB06517FE475EA4552602 /* LeaderDock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C889A1BB1A2D337075D10ADA /* LeaderDock.swift */; };
+		2619E31A9158E0A1F217B125 /* Vine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B5F70FC7F6AA6D71705FAF /* Vine.swift */; };
+		2AA26EADBA4C2C2422336DFB /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24288478256CAAA5E91B8C /* Leader.swift */; };
+		2D6C16D4441F0D7915A1713F /* PinchThenNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47124531031DE8DD2A7ED34E /* PinchThenNode.swift */; };
+		2EBC321F944241C6238D862C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723F2F3123486AC92D38F82A /* Assets.xcassets */; };
+		343F565AE9B20E6EFA40CD1D /* PourFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60690234397B66BC820477AD /* PourFold.swift */; };
+		34DD38376E2C5B9F02EF4924 /* TrellisInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B821EAAAB1A16144FEEE8E5 /* TrellisInk.swift */; };
+		380C4CBF6802F45E5797B22A /* TrellisPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E1355600CB2B22BB93A33 /* TrellisPlate.swift */; };
+		3E7BB2D414C7E010C8C019D6 /* PalmetteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76613D74509769DBAC09CF5E /* PalmetteApp.swift */; };
+		4B6180D55909DF8A6C142E2D /* NodeMarkLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB0837AF7E8B2E0E0C09B9 /* NodeMarkLedger.swift */; };
+		4EB29B5DEC0E095A940E3D49 /* VineHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2694FB80705BE0914EB267 /* VineHold.swift */; };
+		62C5250E94775D08EEEE81BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D8202374CEDBE3B927307 /* AppDelegate.swift */; };
+		676F7ACD2BD8EE49B274BC77 /* GardenPassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9701370CCC75391C889E8 /* GardenPassage.swift */; };
+		6D50131A407F130A6F02C17B /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40672DECF72C62EBD17B7D6 /* APIConfig.swift */; };
+		736840DACF207A88EB697560 /* VineSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC918017BC79D95E43A6B0FC /* VineSeed.swift */; };
+		742EA0307260BE2B833B13C7 /* TrellisRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49ADB999F2E8EB7EAEE0A8 /* TrellisRail.swift */; };
+		7A218C813DDF17478620E313 /* CaneQuartile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321F411E109849D023623E5 /* CaneQuartile.swift */; };
+		86C8632AF31433A6634A30CE /* TrellisFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F0603E59A0C39BB490FCF /* TrellisFigures.swift */; };
+		8E45C774D887B9489726E7BC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 235DCBE2EFA113A99E716714 /* Alamofire */; };
+		8E91CB0DCC55237913D8D5D5 /* GardenLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72533DB1B1745D4DFCC76343 /* GardenLaunchTests.swift */; };
+		8F3B0177B4E15BE23C34B374 /* GardenWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D590AB4818C5345E30169 /* GardenWatch.swift */; };
+		90BBBBE2D2E91B9E33205530 /* VineStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95A94D24DD2EE8883241AFC /* VineStoreTests.swift */; };
+		9352860D065510B638A0F15D /* GardenChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE555A7609E363AEF8BD7168 /* GardenChrome.swift */; };
+		A644086889A044B231614F13 /* NodeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C8CD06BBD3C4EAFCC512C /* NodeMark.swift */; };
+		AC6014256196DDE2F46CE5DB /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E364292D2D894E32645FDFE4 /* FamilyInvariantTests.swift */; };
+		B62D2787CB1AA46EE79616BC /* TrellisDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B2ACCF23D8D2D0E6E049BD /* TrellisDay.swift */; };
+		BE71315A0A46DDAEB39E639C /* TrellisPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D59B74AA1A6BEB6A195C94 /* TrellisPane.swift */; };
+		CC1EC2B0CB5B88BF154BE318 /* EspalierClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1683CBAEBEE38F510B1408 /* EspalierClient.swift */; };
+		D011F2F67216D9A4DA11F7DC /* Pour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883559D980A802C0890BD1F /* Pour.swift */; };
+		D2E578AA90552ACE29649F16 /* Garden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A16818447D703C3C7D9E077 /* Garden.swift */; };
+		D36ADC5B5F6FD4E12D5C9423 /* EspalierClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6C96F2F572954712E6A00 /* EspalierClientTests.swift */; };
+		D4056155A6EC67447E09A644 /* PalmetteFan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535BC0AF1D90F8ACB075C599 /* PalmetteFan.swift */; };
+		EDE5B7C6BDD10843BBBF1A78 /* VineFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA94CBCB18B9F0C24F7D4F /* VineFoldTests.swift */; };
+		F88E1EB378513F20F4F7E113 /* GardenWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4727DC97EF3955476F34CB2 /* GardenWatchTests.swift */; };
+		FBF4B9765FDE23E9EE2B57F3 /* PalmetteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB02CD454F021C05413AAC6 /* PalmetteTests.swift */; };
+		FC701A5221F6143E9471C5F2 /* TrellisFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A477CD6933BD17A5CACDB /* TrellisFace.swift */; };
+		FED53AA26A505B3DA30EC9CA /* GardenLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C4EC38FABF6314782DBB4 /* GardenLaunch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554217B6D28064849E6FA316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2E53CEBDA200B356EE3EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC51561463621E27791920E;
+			remoteInfo = Palmette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B5F70FC7F6AA6D71705FAF /* Vine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vine.swift; sourceTree = "<group>"; };
+		0AA6C96F2F572954712E6A00 /* EspalierClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspalierClientTests.swift; sourceTree = "<group>"; };
+		1404A134C5D89CBBD583086D /* Wood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wood.swift; sourceTree = "<group>"; };
+		1B5F0603E59A0C39BB490FCF /* TrellisFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellisFigures.swift; sourceTree = "<group>"; };
+		1F1DB2FCD3E7311E15D6066F /* PalmetteTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PalmetteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3863527777C9D86A13EC91 /* Palmette.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Palmette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289E1355600CB2B22BB93A33 /* TrellisPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellisPlate.swift; sourceTree = "<group>"; };
+		2B821EAAAB1A16144FEEE8E5 /* TrellisInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellisInk.swift; sourceTree = "<group>"; };
+		37D7043459E35F2FC469E557 /* GardenCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenCodec.swift; sourceTree = "<group>"; };
+		39B2ACCF23D8D2D0E6E049BD /* TrellisDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellisDay.swift; sourceTree = "<group>"; };
+		3E1683CBAEBEE38F510B1408 /* EspalierClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspalierClient.swift; sourceTree = "<group>"; };
+		401A477CD6933BD17A5CACDB /* TrellisFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellisFace.swift; sourceTree = "<group>"; };
+		40B9701370CCC75391C889E8 /* GardenPassage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenPassage.swift; sourceTree = "<group>"; };
+		42C5F339AF0262B6AB5F30B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47124531031DE8DD2A7ED34E /* PinchThenNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchThenNode.swift; sourceTree = "<group>"; };
+		48D59B74AA1A6BEB6A195C94 /* TrellisPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellisPane.swift; sourceTree = "<group>"; };
+		4DB02CD454F021C05413AAC6 /* PalmetteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmetteTests.swift; sourceTree = "<group>"; };
+		4F24288478256CAAA5E91B8C /* Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
+		526C4EC38FABF6314782DBB4 /* GardenLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenLaunch.swift; sourceTree = "<group>"; };
+		535BC0AF1D90F8ACB075C599 /* PalmetteFan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmetteFan.swift; sourceTree = "<group>"; };
+		57583367586D82A385F78BBB /* PlantFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantFold.swift; sourceTree = "<group>"; };
+		5FE20A584283B91CD3F50E6B /* VineFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineFault.swift; sourceTree = "<group>"; };
+		60690234397B66BC820477AD /* PourFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourFold.swift; sourceTree = "<group>"; };
+		6A16818447D703C3C7D9E077 /* Garden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garden.swift; sourceTree = "<group>"; };
+		723F2F3123486AC92D38F82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72533DB1B1745D4DFCC76343 /* GardenLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenLaunchTests.swift; sourceTree = "<group>"; };
+		76613D74509769DBAC09CF5E /* PalmetteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmetteApp.swift; sourceTree = "<group>"; };
+		7883559D980A802C0890BD1F /* Pour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pour.swift; sourceTree = "<group>"; };
+		8E2694FB80705BE0914EB267 /* VineHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineHold.swift; sourceTree = "<group>"; };
+		9DF7EED771FE085A4FC2DEDB /* VineStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineStore.swift; sourceTree = "<group>"; };
+		A40672DECF72C62EBD17B7D6 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		A73D590AB4818C5345E30169 /* GardenWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenWatch.swift; sourceTree = "<group>"; };
+		A95A94D24DD2EE8883241AFC /* VineStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineStoreTests.swift; sourceTree = "<group>"; };
+		ABA8FE4F7C45818369422D30 /* EspalierHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspalierHouse.swift; sourceTree = "<group>"; };
+		AC49ADB999F2E8EB7EAEE0A8 /* TrellisRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrellisRail.swift; sourceTree = "<group>"; };
+		AC5C8CD06BBD3C4EAFCC512C /* NodeMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeMark.swift; sourceTree = "<group>"; };
+		BE555A7609E363AEF8BD7168 /* GardenChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenChrome.swift; sourceTree = "<group>"; };
+		C0DB0837AF7E8B2E0E0C09B9 /* NodeMarkLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeMarkLedger.swift; sourceTree = "<group>"; };
+		C1BA94CBCB18B9F0C24F7D4F /* VineFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineFoldTests.swift; sourceTree = "<group>"; };
+		C27D8202374CEDBE3B927307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C889A1BB1A2D337075D10ADA /* LeaderDock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderDock.swift; sourceTree = "<group>"; };
+		D4727DC97EF3955476F34CB2 /* GardenWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenWatchTests.swift; sourceTree = "<group>"; };
+		E364292D2D894E32645FDFE4 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		E4A4FF36E7B806936D13A561 /* Flush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flush.swift; sourceTree = "<group>"; };
+		EC918017BC79D95E43A6B0FC /* VineSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineSeed.swift; sourceTree = "<group>"; };
+		F321F411E109849D023623E5 /* CaneQuartile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaneQuartile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDA1872041FA0F9B091A068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E45C774D887B9489726E7BC /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F19D87CBFC8701A900630D0 /* NodeMark */ = {
+			isa = PBXGroup;
+			children = (
+				F321F411E109849D023623E5 /* CaneQuartile.swift */,
+				AC5C8CD06BBD3C4EAFCC512C /* NodeMark.swift */,
+				C0DB0837AF7E8B2E0E0C09B9 /* NodeMarkLedger.swift */,
+				47124531031DE8DD2A7ED34E /* PinchThenNode.swift */,
+			);
+			path = NodeMark;
+			sourceTree = "<group>";
+		};
+		6695B60A8468A515B6159EA9 /* Palmette */ = {
+			isa = PBXGroup;
+			children = (
+				A40672DECF72C62EBD17B7D6 /* APIConfig.swift */,
+				C27D8202374CEDBE3B927307 /* AppDelegate.swift */,
+				723F2F3123486AC92D38F82A /* Assets.xcassets */,
+				42C5F339AF0262B6AB5F30B5 /* ContentView.swift */,
+				76613D74509769DBAC09CF5E /* PalmetteApp.swift */,
+				889B7BAB424C00C9A8CA472D /* Flush */,
+				B9EF41D547AEEC1AFACE0E33 /* Leader */,
+				4F19D87CBFC8701A900630D0 /* NodeMark */,
+				7E309EDB6CF7CA165ACDFE65 /* Vine */,
+				ABE98C5731D0071DA890493F /* Wood */,
+			);
+			path = Palmette;
+			sourceTree = "<group>";
+		};
+		68B4636F12962F6D521B3063 /* PalmetteTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA6C96F2F572954712E6A00 /* EspalierClientTests.swift */,
+				E364292D2D894E32645FDFE4 /* FamilyInvariantTests.swift */,
+				72533DB1B1745D4DFCC76343 /* GardenLaunchTests.swift */,
+				D4727DC97EF3955476F34CB2 /* GardenWatchTests.swift */,
+				4DB02CD454F021C05413AAC6 /* PalmetteTests.swift */,
+				C1BA94CBCB18B9F0C24F7D4F /* VineFoldTests.swift */,
+				A95A94D24DD2EE8883241AFC /* VineStoreTests.swift */,
+			);
+			path = PalmetteTests;
+			sourceTree = "<group>";
+		};
+		7E309EDB6CF7CA165ACDFE65 /* Vine */ = {
+			isa = PBXGroup;
+			children = (
+				3E1683CBAEBEE38F510B1408 /* EspalierClient.swift */,
+				ABA8FE4F7C45818369422D30 /* EspalierHouse.swift */,
+				6A16818447D703C3C7D9E077 /* Garden.swift */,
+				BE555A7609E363AEF8BD7168 /* GardenChrome.swift */,
+				37D7043459E35F2FC469E557 /* GardenCodec.swift */,
+				526C4EC38FABF6314782DBB4 /* GardenLaunch.swift */,
+				40B9701370CCC75391C889E8 /* GardenPassage.swift */,
+				A73D590AB4818C5345E30169 /* GardenWatch.swift */,
+				57583367586D82A385F78BBB /* PlantFold.swift */,
+				7883559D980A802C0890BD1F /* Pour.swift */,
+				39B2ACCF23D8D2D0E6E049BD /* TrellisDay.swift */,
+				401A477CD6933BD17A5CACDB /* TrellisFace.swift */,
+				1B5F0603E59A0C39BB490FCF /* TrellisFigures.swift */,
+				2B821EAAAB1A16144FEEE8E5 /* TrellisInk.swift */,
+				48D59B74AA1A6BEB6A195C94 /* TrellisPane.swift */,
+				289E1355600CB2B22BB93A33 /* TrellisPlate.swift */,
+				AC49ADB999F2E8EB7EAEE0A8 /* TrellisRail.swift */,
+				09B5F70FC7F6AA6D71705FAF /* Vine.swift */,
+				5FE20A584283B91CD3F50E6B /* VineFault.swift */,
+				8E2694FB80705BE0914EB267 /* VineHold.swift */,
+				EC918017BC79D95E43A6B0FC /* VineSeed.swift */,
+				9DF7EED771FE085A4FC2DEDB /* VineStore.swift */,
+			);
+			path = Vine;
+			sourceTree = "<group>";
+		};
+		889B7BAB424C00C9A8CA472D /* Flush */ = {
+			isa = PBXGroup;
+			children = (
+				E4A4FF36E7B806936D13A561 /* Flush.swift */,
+				60690234397B66BC820477AD /* PourFold.swift */,
+			);
+			path = Flush;
+			sourceTree = "<group>";
+		};
+		ABE98C5731D0071DA890493F /* Wood */ = {
+			isa = PBXGroup;
+			children = (
+				535BC0AF1D90F8ACB075C599 /* PalmetteFan.swift */,
+				1404A134C5D89CBBD583086D /* Wood.swift */,
+			);
+			path = Wood;
+			sourceTree = "<group>";
+		};
+		B9EF41D547AEEC1AFACE0E33 /* Leader */ = {
+			isa = PBXGroup;
+			children = (
+				4F24288478256CAAA5E91B8C /* Leader.swift */,
+				C889A1BB1A2D337075D10ADA /* LeaderDock.swift */,
+			);
+			path = Leader;
+			sourceTree = "<group>";
+		};
+		DB0F7FBFE0D3661669CBFA7F = {
+			isa = PBXGroup;
+			children = (
+				6695B60A8468A515B6159EA9 /* Palmette */,
+				68B4636F12962F6D521B3063 /* PalmetteTests */,
+				F7E223DEB3FA619C4C519FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E223DEB3FA619C4C519FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3863527777C9D86A13EC91 /* Palmette.app */,
+				1F1DB2FCD3E7311E15D6066F /* PalmetteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80E484F5A6D0D4613258C6B /* PalmetteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347B4596DBEC41EC806F3FD4 /* Build configuration list for PBXNativeTarget "PalmetteTests" */;
+			buildPhases = (
+				C48B94695FC05F54B7928348 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB48E6D3DC3B69CF407C5C40 /* PBXTargetDependency */,
+			);
+			name = PalmetteTests;
+			packageProductDependencies = (
+			);
+			productName = PalmetteTests;
+			productReference = 1F1DB2FCD3E7311E15D6066F /* PalmetteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAC51561463621E27791920E /* Palmette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099F1E290CE670D144FDC8A4 /* Build configuration list for PBXNativeTarget "Palmette" */;
+			buildPhases = (
+				47CF4C75DAB18345579FE0C6 /* Sources */,
+				FECA6796CA42A3F14C4A20D5 /* Resources */,
+				8EDA1872041FA0F9B091A068 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palmette;
+			packageProductDependencies = (
+				235DCBE2EFA113A99E716714 /* Alamofire */,
+			);
+			productName = Palmette;
+			productReference = 1F3863527777C9D86A13EC91 /* Palmette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2E53CEBDA200B356EE3EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C80E484F5A6D0D4613258C6B = {
+						ProvisioningStyle = Automatic;
+					};
+					CAC51561463621E27791920E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E6685D350F7A23FE96B1DFB6 /* Build configuration list for PBXProject "Palmette" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DB0F7FBFE0D3661669CBFA7F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				309863FE1F59B22A7B171AF7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7E223DEB3FA619C4C519FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC51561463621E27791920E /* Palmette */,
+				C80E484F5A6D0D4613258C6B /* PalmetteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FECA6796CA42A3F14C4A20D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC321F944241C6238D862C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CF4C75DAB18345579FE0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D50131A407F130A6F02C17B /* APIConfig.swift in Sources */,
+				62C5250E94775D08EEEE81BE /* AppDelegate.swift in Sources */,
+				7A218C813DDF17478620E313 /* CaneQuartile.swift in Sources */,
+				0EC8D3FEBFAAC9D331796966 /* ContentView.swift in Sources */,
+				CC1EC2B0CB5B88BF154BE318 /* EspalierClient.swift in Sources */,
+				122C24C4AC912C6E2FBEA614 /* EspalierHouse.swift in Sources */,
+				09B0552FE8D5D1F348FDD670 /* Flush.swift in Sources */,
+				D2E578AA90552ACE29649F16 /* Garden.swift in Sources */,
+				9352860D065510B638A0F15D /* GardenChrome.swift in Sources */,
+				1638A9AF037BBD489564CD79 /* GardenCodec.swift in Sources */,
+				FED53AA26A505B3DA30EC9CA /* GardenLaunch.swift in Sources */,
+				676F7ACD2BD8EE49B274BC77 /* GardenPassage.swift in Sources */,
+				8F3B0177B4E15BE23C34B374 /* GardenWatch.swift in Sources */,
+				2AA26EADBA4C2C2422336DFB /* Leader.swift in Sources */,
+				250CB06517FE475EA4552602 /* LeaderDock.swift in Sources */,
+				A644086889A044B231614F13 /* NodeMark.swift in Sources */,
+				4B6180D55909DF8A6C142E2D /* NodeMarkLedger.swift in Sources */,
+				3E7BB2D414C7E010C8C019D6 /* PalmetteApp.swift in Sources */,
+				D4056155A6EC67447E09A644 /* PalmetteFan.swift in Sources */,
+				2D6C16D4441F0D7915A1713F /* PinchThenNode.swift in Sources */,
+				2329CB1E5A0A0C5568B6F839 /* PlantFold.swift in Sources */,
+				D011F2F67216D9A4DA11F7DC /* Pour.swift in Sources */,
+				343F565AE9B20E6EFA40CD1D /* PourFold.swift in Sources */,
+				B62D2787CB1AA46EE79616BC /* TrellisDay.swift in Sources */,
+				FC701A5221F6143E9471C5F2 /* TrellisFace.swift in Sources */,
+				86C8632AF31433A6634A30CE /* TrellisFigures.swift in Sources */,
+				34DD38376E2C5B9F02EF4924 /* TrellisInk.swift in Sources */,
+				BE71315A0A46DDAEB39E639C /* TrellisPane.swift in Sources */,
+				380C4CBF6802F45E5797B22A /* TrellisPlate.swift in Sources */,
+				742EA0307260BE2B833B13C7 /* TrellisRail.swift in Sources */,
+				2619E31A9158E0A1F217B125 /* Vine.swift in Sources */,
+				07035AD800F886F475386E2A /* VineFault.swift in Sources */,
+				4EB29B5DEC0E095A940E3D49 /* VineHold.swift in Sources */,
+				736840DACF207A88EB697560 /* VineSeed.swift in Sources */,
+				11896FDC5A31DE3E417010FC /* VineStore.swift in Sources */,
+				19FD1C96921EE6795539B55F /* Wood.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48B94695FC05F54B7928348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36ADC5B5F6FD4E12D5C9423 /* EspalierClientTests.swift in Sources */,
+				AC6014256196DDE2F46CE5DB /* FamilyInvariantTests.swift in Sources */,
+				8E91CB0DCC55237913D8D5D5 /* GardenLaunchTests.swift in Sources */,
+				F88E1EB378513F20F4F7E113 /* GardenWatchTests.swift in Sources */,
+				FBF4B9765FDE23E9EE2B57F3 /* PalmetteTests.swift in Sources */,
+				EDE5B7C6BDD10843BBBF1A78 /* VineFoldTests.swift in Sources */,
+				90BBBBE2D2E91B9E33205530 /* VineStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB48E6D3DC3B69CF407C5C40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC51561463621E27791920E /* Palmette */;
+			targetProxy = 554217B6D28064849E6FA316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E3C56B5D49DAB54F613141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		47A4FB5F1A0F4BB34988E45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmette.vine.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palmette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Palmette";
+			};
+			name = Release;
+		};
+		52E068F27450B8B843B10244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		5E99626063E81B38914B6E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Palmette;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmette.vine;
+				PRODUCT_NAME = Palmette;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		625DF9E8AFC247456662F0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Palmette;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmette.vine;
+				PRODUCT_NAME = Palmette;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0E8AEF8230C430CC580BC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmette.vine.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palmette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Palmette";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099F1E290CE670D144FDC8A4 /* Build configuration list for PBXNativeTarget "Palmette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E99626063E81B38914B6E58 /* Debug */,
+				625DF9E8AFC247456662F0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		347B4596DBEC41EC806F3FD4 /* Build configuration list for PBXNativeTarget "PalmetteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E8AEF8230C430CC580BC3D /* Debug */,
+				47A4FB5F1A0F4BB34988E45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6685D350F7A23FE96B1DFB6 /* Build configuration list for PBXProject "Palmette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E3C56B5D49DAB54F613141 /* Debug */,
+				52E068F27450B8B843B10244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		309863FE1F59B22A7B171AF7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		235DCBE2EFA113A99E716714 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 309863FE1F59B22A7B171AF7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B2E53CEBDA200B356EE3EBC /* Project object */;
+}
